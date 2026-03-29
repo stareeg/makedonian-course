@@ -1,0 +1,27 @@
+﻿Metric,CLASSLA,Rule-based
+Accuracy (exact match),84.8%,72.5%
+Accuracy (case-insensitive),85.9%,73.6%
+Accuracy (VERB),82.2%,59.1%
+Accuracy (PUNCT),100.0%,100.0%
+Accuracy (PRON),32.2%,20.6%
+Accuracy (NOUN),98.3%,68.7%
+Accuracy (CCONJ),97.7%,100.0%
+Accuracy (ADP),100.0%,100.0%
+Accuracy (PART),100.0%,100.0%
+Accuracy (AUX),98.4%,96.8%
+Accuracy (ADV),91.2%,93.0%
+Accuracy (ADJ),90.9%,50.0%
+Accuracy (SCONJ),100.0%,97.0%
+Accuracy (PROPN),100.0%,100.0%
+Accuracy (DET),75.0%,35.0%
+Exception Dict Coverage,-,15.9%
+Rule Activation Rate,-,43.4%
+OOV Accuracy,-,76.6%
+Known-word Accuracy,-,25.4%
+Speed (tokens/sec),113,"215,963"
+Model startup (sec),6.90,0.00
+Peak memory delta (MB),0.7,0.0
+Speedup (rule/classla),-,1911.2x
+"Errors: RB wrong, CL right",-,188
+"Errors: CL wrong, RB right",21,-
+Errors: both wrong,171,171

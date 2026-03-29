@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Set these paths appropriately
+
+BIN="/Users/mac/Desktop/vscode/gromov/tree_tagger/bin"
+CMD="/Users/mac/Desktop/vscode/gromov/tree_tagger/cmd"
+LIB="/Users/mac/Desktop/vscode/gromov/tree_tagger/lib"
+
+OPTIONS="-token -lemma -sgml"
+
+TOKENIZER=${CMD}/utf8-tokenize.perl
+TAGGER=${BIN}/tree-tagger
+PARFILE=${LIB}/persian.par
+
+# do tokenization
+$TOKENIZER $* |
+$TAGGER $OPTIONS $PARFILE

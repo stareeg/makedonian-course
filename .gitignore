@@ -1,0 +1,29 @@
+# большие файлы (>25MB) — не поддерживаются GitHub
+datasets/raw/
+datasets/nlp_data.db
+news/mkd_news_2020_100K-inv_w.txt
+rulebased-concept-tree-main/maltparser/russian.mco
+temp/models/
+
+# temp/ — кроме temp/visualization/
+temp/*
+!temp/visualization/
+
+# рабочие планы и внутренние файлы (не для GitHub)
+plan_*.md
+master_plan.md
+implement_plan.md
+CLAUDE.md
+dialog.txt
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,16 @@
+form,upos,lemma_gold,lemma_classla,lemma_rulebased,correct_classla,correct_rulebased
+Мислам,VERB,мисли,мисли,мисла,True,False
+злато,NOUN,злато,злато,зла,True,False
+главниот,ADJ,главен,главен,главн,True,False
+Што,PRON,што,што,шт,True,False
+една,DET,еден,еден,ед,True,False
+два,NUM,два,два,дв,True,False
+ѝ,PRON,ѝ,таа,ѝ,False,True
+позабавен,ADJ,забавен,сабавен,забавен,False,True
+израсна,VERB,израсна,израсне,израсна,False,True
+му,PRON,му,тој,тој,False,False
+напиша,VERB,напишe,напише,напиша,False,False
+Колоните,NOUN,колона,колон,колони,False,False
+црвена,ADJ,црвена,црвен,црве,False,False
+Ова,DET,ова,овој,овој,False,False
+дента,ADV,ден,дента,дента,False,False

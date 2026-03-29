@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# Set these paths appropriately
+
+BIN="/Users/mac/Desktop/vscode/gromov/tree_tagger/bin"
+CMD="/Users/mac/Desktop/vscode/gromov/tree_tagger/cmd"
+LIB="/Users/mac/Desktop/vscode/gromov/tree_tagger/lib"
+
+OPTIONS="-token -lemma -sgml"
+
+TOKENIZER=${CMD}/utf8-tokenize.perl
+MWL=${CMD}/mwl-lookup.perl
+TAGGER=${BIN}/tree-tagger
+ABBR_LIST=${LIB}/estonian-abbreviations
+PARFILE=${LIB}/estonian.par
+MWLFILE=${LIB}/estonian-mwls
+
+$TOKENIZER -a $ABBR_LIST $* |
+# recognition of MWLs
+$MWL -f $MWLFILE |
+# tagging
+$TAGGER $OPTIONS $PARFILE
+

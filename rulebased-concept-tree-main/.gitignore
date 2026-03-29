@@ -1,0 +1,4 @@
+tree_tagger/lib/russian.par
+tree_tagger/lib/russian.par
+venv/
+corpus/**/*.txt
